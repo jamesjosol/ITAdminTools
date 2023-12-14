@@ -1,0 +1,141 @@
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\bin\Debug\Updater.exe.config
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\bin\Debug\Updater.exe
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\bin\Debug\Updater.pdb
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\obj\Debug\Updater.frmUpdater.resources
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\obj\Debug\Updater.Properties.Resources.resources
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\obj\Debug\Updater.csproj.GenerateResource.Cache
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\obj\Debug\Updater.exe
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\obj\Debug\Updater.pdb
+D:\files\ANNA\__PROJECTS\C#.NET\Updater\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\bin\Debug\Updater.exe.config
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\obj\Debug\Updater.exe
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\obj\Debug\Updater.pdb
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\obj\Debug\Updater.frmUpdater.resources
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\obj\Debug\Updater.csproj.GenerateResource.Cache
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\obj\Debug\Updater.Properties.Resources.resources
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\bin\Debug\Updater.exe
+C:\Users\roche.sanoy\Desktop\Temp\Updater\Updater\bin\Debug\Updater.pdb
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\bin\Debug\Updater.exe.config
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\obj\Debug\Updater.exe
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\obj\Debug\Updater.pdb
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\bin\Debug\Updater.exe
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\bin\Debug\Updater.pdb
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\obj\Debug\Updater.frmUpdater.resources
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\obj\Debug\Updater.Properties.Resources.resources
+\\fileserver\HPD APPS\Updater\Solution\Updater 01\Updater\obj\Debug\Updater.csproj.GenerateResource.Cache
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\bin\Debug\Updater.exe.config
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\obj\Debug\Updater.exe
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\obj\Debug\Updater.pdb
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\bin\Debug\Updater.exe
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\bin\Debug\Updater.pdb
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\obj\Debug\Updater.frmUpdater.resources
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\obj\Debug\Updater.Properties.Resources.resources
+D:\files\ANNA\__PROJECTS\C#.NET\Updater 01\Updater\obj\Debug\Updater.csproj.GenerateResource.Cache
+\\10.10.11.17\hpd apps\Updater\Solution\Updater 01\Updater\bin\Debug\Updater.exe.config
+\\10.10.11.17\hpd apps\Updater\Solution\Updater 01\Updater\obj\Debug\Updater.exe
+\\10.10.11.17\hpd apps\Updater\Solution\Updater 01\Updater\obj\Debug\Updater.pdb
+D:\Share folder\Updater 01\Updater\bin\Debug\Updater.exe.config
+D:\Share folder\Updater 01\Updater\bin\Debug\Updater.exe
+D:\Share folder\Updater 01\Updater\bin\Debug\Updater.pdb
+D:\Share folder\Updater 01\Updater\obj\Debug\Updater.csproj.AssemblyReference.cache
+D:\Share folder\Updater 01\Updater\obj\Debug\Updater.frmUpdater.resources
+D:\Share folder\Updater 01\Updater\obj\Debug\Updater.Properties.Resources.resources
+D:\Share folder\Updater 01\Updater\obj\Debug\Updater.csproj.GenerateResource.cache
+D:\Share folder\Updater 01\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
+D:\Share folder\Updater 01\Updater\obj\Debug\Updater.exe
+D:\Share folder\Updater 01\Updater\obj\Debug\Updater.pdb
+D:\Share folder\Updater 01\Updater\bin\Debug\MetroFramework.Design.dll
+D:\Share folder\Updater 01\Updater\bin\Debug\MetroFramework.dll
+D:\Share folder\Updater 01\Updater\bin\Debug\MetroFramework.Fonts.dll
+D:\Share folder\Updater 01\Updater\obj\Debug\Updater.csproj.CopyComplete
+D:\Share folder\Updater 02\Updater\bin\Debug\Updater.exe.config
+D:\Share folder\Updater 02\Updater\bin\Debug\Updater.exe
+D:\Share folder\Updater 02\Updater\bin\Debug\Updater.pdb
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.Licensing.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\Share folder\Updater 02\Updater\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.csproj.AssemblyReference.cache
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.frmUpdater.resources
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.Properties.Resources.resources
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.csproj.GenerateResource.cache
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.exe.licenses
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.csproj.CopyComplete
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.exe
+D:\Share folder\Updater 02\Updater\obj\Debug\Updater.pdb
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\obj\Debug\Updater.frmUpdater.resources
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\obj\Debug\Updater.Properties.Resources.resources
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\obj\Debug\Updater.csproj.GenerateResource.cache
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\obj\Debug\Updater.exe.licenses
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\bin\Debug\Updater.exe.config
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\bin\Debug\Updater.exe
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\bin\Debug\Updater.pdb
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\obj\Debug\Updater.exe
+C:\Users\jamespaul.josol\source\repos\AdminTools\Updater\Updater\obj\Debug\Updater.pdb
