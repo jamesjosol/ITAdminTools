@@ -1,6 +1,7 @@
 ﻿using FontAwesome.Sharp;
 using System;
 using System.Drawing;
+using System.IO;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
@@ -15,6 +16,7 @@ namespace AdminTools
         private Form currentChildForm;
         private Size formSize;
         private int boderSize = 2;
+        private XMessage x = new XMessage();
 
         public Form1()
         {
@@ -39,8 +41,11 @@ namespace AdminTools
 
             this.Opacity = 0;
 
-            if (Session.UserID == "LAALDUHIZA")
+            if (Session.UserType != "SUPERADMIN") btnUserManage.Visible = false;
+
+            if (Session.imageBytes != null && Session.imageBytes.Length > 0)
             {
+                picbox.Image = ByteArrayToImage(Session.imageBytes);
                 btnHome.Visible = false;
                 labelTitle.Visible = false;
                 picbox.Visible = true;
@@ -147,7 +152,7 @@ namespace AdminTools
         private void btnProfileSetting_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color5);
-            //enChildForm(new Chart());
+            OpenChildForm(new UserManage());
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -389,5 +394,28 @@ namespace AdminTools
             }
         }
 
+        private void changePicBtn_Click(object sender, EventArgs e)
+        {
+            ChangePicModal changePic = new ChangePicModal();
+            changePic.ShowDialog();
+            if (changePic.isSaved)
+            {
+                x.scs("Image successfully changed.");
+                btnHome.Visible = false;
+                labelTitle.Visible = false;
+                picbox.Visible = true;
+                labelTitle2.Visible = true;
+
+                picbox.Image = ByteArrayToImage(Session.imageBytes);
+            }
+        }
+
+        private Image ByteArrayToImage(byte[] byteArray)
+        {
+            using (MemoryStream stream = new MemoryStream(byteArray))
+            {
+                return Image.FromStream(stream);
+            }
+        }
     }
 }

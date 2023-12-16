@@ -25,6 +25,7 @@ namespace AdminTools
             loadData();
             updatedLabelTitle.Visible = false;
             CloseLoadingDialog();
+            saveBtn.Visible = Session.UserType == "SUPERADMIN" || Session.UserType == "ADMIN";
         }
 
         private void UpdateSource_Load(object sender, EventArgs e)

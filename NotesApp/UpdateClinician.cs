@@ -15,6 +15,7 @@ namespace AdminTools
             loadingThread.Start();
             InitializeComponent();
             updatedLabelTitle.Visible = false;
+            saveBtn.Visible = Session.UserType == "SUPERADMIN" || Session.UserType == "ADMIN";
             CloseLoadingDialog();
         }
 

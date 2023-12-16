@@ -30,5 +30,9 @@ namespace AdminTools
             RJMessageBox.Show(message, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        public void info(string message)
+        {
+            RJMessageBox.Show(message, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

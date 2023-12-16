@@ -166,6 +166,9 @@
     <Reference Include="CustomMessageBox">
       <HintPath>..\..\..\..\Downloads\CustomMessageBox-main\CustomMessageBox-main\CustomMessageBox\bin\Debug\CustomMessageBox.dll</HintPath>
     </Reference>
+    <Reference Include="Dapper, Version=1.50.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.1\lib\net451\Dapper.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Data.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -215,6 +218,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangePicModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePicModal.Designer.cs">
+      <DependentUpon>ChangePicModal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loader.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -296,9 +305,18 @@
     <Compile Include="UpdateSource.Designer.cs">
       <DependentUpon>UpdateSource.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManage.Designer.cs">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="XMessage.cs" />
     <EmbeddedResource Include="BillingModal.resx">
       <DependentUpon>BillingModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePicModal.resx">
+      <DependentUpon>ChangePicModal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chart.resx">
       <DependentUpon>Chart.cs</DependentUpon>
@@ -343,6 +361,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateSource.resx">
       <DependentUpon>UpdateSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManage.resx">
+      <DependentUpon>UserManage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

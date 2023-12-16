@@ -32,13 +32,14 @@ namespace AdminTools
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.btnProfileSetting = new FontAwesome.Sharp.IconButton();
+            this.btnUserManage = new FontAwesome.Sharp.IconButton();
             this.btnUpdateDebtor = new FontAwesome.Sharp.IconButton();
             this.btnLogout = new FontAwesome.Sharp.IconButton();
             this.btnUpdateSource = new FontAwesome.Sharp.IconButton();
             this.btnTodo = new FontAwesome.Sharp.IconButton();
             this.btnPackageGenerator = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.changePicBtn = new FontAwesome.Sharp.IconPictureBox();
             this.picbox = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.framebox = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.labelTitle2 = new System.Windows.Forms.Label();
@@ -56,6 +57,7 @@ namespace AdminTools
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.changePicBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.framebox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
@@ -66,7 +68,7 @@ namespace AdminTools
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(31)))), ((int)(((byte)(68)))));
-            this.panelMenu.Controls.Add(this.btnProfileSetting);
+            this.panelMenu.Controls.Add(this.btnUserManage);
             this.panelMenu.Controls.Add(this.btnUpdateDebtor);
             this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Controls.Add(this.btnUpdateSource);
@@ -79,27 +81,27 @@ namespace AdminTools
             this.panelMenu.Size = new System.Drawing.Size(178, 633);
             this.panelMenu.TabIndex = 0;
             // 
-            // btnProfileSetting
+            // btnUserManage
             // 
-            this.btnProfileSetting.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProfileSetting.FlatAppearance.BorderSize = 0;
-            this.btnProfileSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProfileSetting.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnProfileSetting.IconChar = FontAwesome.Sharp.IconChar.UserCog;
-            this.btnProfileSetting.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnProfileSetting.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnProfileSetting.IconSize = 32;
-            this.btnProfileSetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProfileSetting.Location = new System.Drawing.Point(0, 385);
-            this.btnProfileSetting.Name = "btnProfileSetting";
-            this.btnProfileSetting.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnProfileSetting.Size = new System.Drawing.Size(178, 60);
-            this.btnProfileSetting.TabIndex = 5;
-            this.btnProfileSetting.Text = "Profile Settings";
-            this.btnProfileSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProfileSetting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnProfileSetting.UseVisualStyleBackColor = true;
-            this.btnProfileSetting.Click += new System.EventHandler(this.btnProfileSetting_Click);
+            this.btnUserManage.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnUserManage.FlatAppearance.BorderSize = 0;
+            this.btnUserManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUserManage.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnUserManage.IconChar = FontAwesome.Sharp.IconChar.UserCog;
+            this.btnUserManage.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnUserManage.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnUserManage.IconSize = 32;
+            this.btnUserManage.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUserManage.Location = new System.Drawing.Point(0, 385);
+            this.btnUserManage.Name = "btnUserManage";
+            this.btnUserManage.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnUserManage.Size = new System.Drawing.Size(178, 60);
+            this.btnUserManage.TabIndex = 5;
+            this.btnUserManage.Text = "User Manage";
+            this.btnUserManage.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUserManage.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnUserManage.UseVisualStyleBackColor = true;
+            this.btnUserManage.Click += new System.EventHandler(this.btnProfileSetting_Click);
             // 
             // btnUpdateDebtor
             // 
@@ -213,6 +215,7 @@ namespace AdminTools
             // 
             // panelLogo
             // 
+            this.panelLogo.Controls.Add(this.changePicBtn);
             this.panelLogo.Controls.Add(this.picbox);
             this.panelLogo.Controls.Add(this.framebox);
             this.panelLogo.Controls.Add(this.labelTitle2);
@@ -224,6 +227,21 @@ namespace AdminTools
             this.panelLogo.Size = new System.Drawing.Size(178, 145);
             this.panelLogo.TabIndex = 0;
             // 
+            // changePicBtn
+            // 
+            this.changePicBtn.BackColor = System.Drawing.Color.Transparent;
+            this.changePicBtn.ForeColor = System.Drawing.Color.MediumPurple;
+            this.changePicBtn.IconChar = FontAwesome.Sharp.IconChar.Pen;
+            this.changePicBtn.IconColor = System.Drawing.Color.MediumPurple;
+            this.changePicBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.changePicBtn.IconSize = 15;
+            this.changePicBtn.Location = new System.Drawing.Point(160, 4);
+            this.changePicBtn.Name = "changePicBtn";
+            this.changePicBtn.Size = new System.Drawing.Size(15, 18);
+            this.changePicBtn.TabIndex = 7;
+            this.changePicBtn.TabStop = false;
+            this.changePicBtn.Click += new System.EventHandler(this.changePicBtn_Click);
+            // 
             // picbox
             // 
             this.picbox.AllowFocused = false;
@@ -231,7 +249,6 @@ namespace AdminTools
             this.picbox.AutoSizeHeight = true;
             this.picbox.BackColor = System.Drawing.Color.Transparent;
             this.picbox.BorderRadius = 50;
-            this.picbox.Image = global::AdminTools.Properties.Resources.yang;
             this.picbox.IsCircle = true;
             this.picbox.Location = new System.Drawing.Point(39, 11);
             this.picbox.Name = "picbox";
@@ -448,6 +465,7 @@ namespace AdminTools
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.changePicBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.framebox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).EndInit();
@@ -478,11 +496,12 @@ namespace AdminTools
         private FontAwesome.Sharp.IconButton btnMaximize;
         private FontAwesome.Sharp.IconButton btnMinimize;
         private Bunifu.UI.WinForms.BunifuLabel sessionLabel;
-        private FontAwesome.Sharp.IconButton btnProfileSetting;
+        private FontAwesome.Sharp.IconButton btnUserManage;
         private FontAwesome.Sharp.IconButton btnUpdateDebtor;
         private Bunifu.UI.WinForms.BunifuPictureBox picbox;
         private System.Windows.Forms.Label labelTitle2;
         private Bunifu.UI.WinForms.BunifuPictureBox framebox;
+        private FontAwesome.Sharp.IconPictureBox changePicBtn;
     }
 }
 

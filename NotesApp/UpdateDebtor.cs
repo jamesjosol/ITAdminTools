@@ -21,6 +21,7 @@ namespace AdminTools
             loadingThread.Start();
             InitializeComponent();
             CloseLoadingDialog();
+            saveBtn.Visible = Session.UserType == "SUPERADMIN" || Session.UserType == "ADMIN";
         }
 
         private void UpdateDebtor_Load(object sender, EventArgs e)

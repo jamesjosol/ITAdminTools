@@ -22,5 +22,18 @@ namespace AdminTools.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("data source=SQLSERVER03;initial catalog=HPD_ITAdminTools;user id=sa; password=aaa" +
+            ";MultipleActiveResultSets=True;App=EntityFramework")]
+        public string MYDB {
+            get {
+                return ((string)(this["MYDB"]));
+            }
+            set {
+                this["MYDB"] = value;
+            }
+        }
     }
 }

@@ -47,13 +47,35 @@ namespace AdminTools
 
                 if (user != null)
                 {
+                    BO.User _authorized = DA.AuthorizedUser(user.UserID);
+
+                    if (_authorized == null)
+                    {
+                        DA.InsertUser(user);
+                        CloseLoadingDialog();
+                        loadingThread.Abort();
+                        x.info("The Account has been registered but not activated.");
+                    
+                        return;
+                    }
+                    else if (_authorized.Active == false)
+                    {
+                        CloseLoadingDialog();
+                        loadingThread.Abort();
+                        x.err("The Account is not activated.");
+                        return;
+                    }
+
                     Session.UserID = user.UserID;
                     Session.Username = user.Username;
+                    Session.UserType = _authorized.UserType;
+                    Session.imageBytes = _authorized.Picture;
+
 
                     this.Hide();
                     Form1 f1 = new Form1();
                     CloseLoadingDialog();
-                    f1.Show();  
+                    f1.Show();
                 }
                 else
                 {

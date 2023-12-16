@@ -2,12 +2,123 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using AdminTools.Properties;
+using Dapper;
 
 namespace AdminTools
 {
     public class DA
     {
 
+        public BO.User AuthorizedUser(string userid)
+        {
+            BO.User user = null;
+            try
+            {
+                using (var con = new SqlConnection(Settings.Default.MYDB))
+                {
+                    user = con.Query<BO.User>(Queries.GET_USER, new
+                    {
+                        userid = userid
+                    }).FirstOrDefault();
+                }
+                return user;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void InsertUser(BO.User user)
+        {
+            try
+            {
+                using (var con = new SqlConnection(Settings.Default.MYDB))
+                {
+                    con.Execute(Queries.INSERT_USER, new BO.User
+                    {
+                        UserID = user.UserID,
+                        UserType = "USER",
+                        CreatedOn = DateTime.Now,
+                        CreatedBy = "SYSTEM"
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<BO.User> getAllUsers()
+        {
+            List<BO.User> users = null;
+            try
+            {
+                using (var con = new SqlConnection(Settings.Default.MYDB))
+                {
+                    users = con.Query<BO.User>(Queries.GET_ALL_USER).ToList();
+                }
+                return users;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public bool UpdateUser(BO.User user)
+        {
+            try
+            {
+                using (var con = new SqlConnection(Settings.Default.MYDB))
+                {
+                    con.Execute(Queries.UPDATE_USER, new BO.User
+                    {
+                        UserID = user.UserID,
+                        UserType = user.UserType,
+                        Active = user.Active,
+                        UpdatedOn = DateTime.Now,
+                        UpdatedBy = Session.UserID
+                    });
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool UploadImage(string userid, byte[] imagedata)
+        {
+            try
+            {
+                using (var con = new SqlConnection(Settings.Default.MYDB))
+                {
+                    con.Execute(Queries.UPLOAD_IMAGE, new
+                    {
+                        UserID = userid,
+                        ImageData = imagedata
+                    });
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+
+
+        #region HCLAB QUERIES
         public BO.User Auth(string userid, string password)
         {
             OracleConnection con = new OracleConnection(string.Format("data source = {0}; user id = hclab; password=hclab", "WES"));
@@ -966,6 +1077,26 @@ namespace AdminTools
                 throw;
             }
         }
+
+        #endregion
+    }
+
+    public class Queries
+    {
+        public static string GET_USER = @"SELECT * FROM AuthorizedUsers WHERE UserID = @userid;";
+
+        public static string GET_ALL_USER = @"SELECT * FROM AuthorizedUsers ORDER BY Id DESC";
+
+        public static string INSERT_USER = @"INSERT INTO AuthorizedUsers (UserID, UserType, CreatedOn, CreatedBy, Active) 
+                                                VALUES (@UserId, @UserType, GETDATE(), @CreatedBy, 0);";
+
+        public static string INSERT_USER_2 = @"INSERT INTO AuthorizedUsers (UserID, UserType, CreatedOn, CreatedBy, Active) 
+                                                VALUES (@UserId, @UserType, GETDATE(), @CreatedBy, @Active);";
+
+        public static string UPDATE_USER = @"UPDATE AuthorizedUsers SET Active = @Active, UserType = @UserType, UpdatedOn = GETDATE(), UpdatedBy = @UpdatedBy 
+                                                    WHERE UserID = @UserID;";
+
+        public static string UPLOAD_IMAGE = @"UPDATE AuthorizedUsers SET Picture = @ImageData WHERE UserID = @UserID";
     }
 }
   

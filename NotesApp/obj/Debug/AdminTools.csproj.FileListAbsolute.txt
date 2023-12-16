@@ -137,3 +137,7 @@ C:\Users\jamespaul.josol\source\repos\AdminTools\NotesApp\obj\Debug\AdminTools.c
 C:\Users\jamespaul.josol\source\repos\AdminTools\NotesApp\obj\Debug\AdminTools.exe
 C:\Users\jamespaul.josol\source\repos\AdminTools\NotesApp\obj\Debug\AdminTools.pdb
 C:\Users\jamespaul.josol\source\repos\AdminTools\NotesApp\obj\Debug\AdminTools.csproj.AssemblyReference.cache
+C:\Users\jamespaul.josol\source\repos\AdminTools\NotesApp\bin\Debug\Dapper.dll
+C:\Users\jamespaul.josol\source\repos\AdminTools\NotesApp\bin\Debug\Dapper.xml
+C:\Users\jamespaul.josol\source\repos\AdminTools\NotesApp\obj\Debug\AdminTools.UserManage.resources
+C:\Users\jamespaul.josol\source\repos\AdminTools\NotesApp\obj\Debug\AdminTools.ChangePicModal.resources

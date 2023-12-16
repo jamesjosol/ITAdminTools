@@ -9,6 +9,13 @@ namespace AdminTools
             public string UserID { get; set; }
             public string Username { get; set; }
             public string Password { get; set; }
+            public string UserType { get; set; }
+            public bool Active { get; set; }
+            public DateTime CreatedOn { get; set; }
+            public string CreatedBy { get; set; }
+            public DateTime UpdatedOn { get; set; }
+            public string UpdatedBy { get; set; }
+            public byte[] Picture { get; set; }
         }
 
         public class Package
